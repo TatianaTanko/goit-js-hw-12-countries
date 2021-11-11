@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+  background-color: rgb(7, 127, 69);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-container {
+  text-align: center;
+}
+.title-country {
+  display: inline-block;
+  text-align: center;
+
+  font-size: 40px;
+}
+.title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+
+.form-control {
+  min-width: 350x;
+  height: 50px;
+
+  border-radius: 5px;
+  border-color: rgb(194, 189, 189);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.img-country {
+  margin-left: 30px;
+}
+
+.img-country-smal {
+  margin-right: 10px;
+}
+
+.item-card {
+  text-align: start;
+  margin-top: 20px;
+}
+
+.country-list__item {
+  text-align: start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style-type: disc;
+}
+
+.item-lang {
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: disc;
+  padding-left: 0;
+}
+.country-list {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.country-div {
+  display: flex;
+}
